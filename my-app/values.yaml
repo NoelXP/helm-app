@@ -1,0 +1,6 @@
+replicaCount: 3
+
+image:
+  repository: us-east1-docker.pkg.dev/helm-tut/quickstart-docker-repo/helm-app
+  tag: latest
+  pullPolicy: Always
