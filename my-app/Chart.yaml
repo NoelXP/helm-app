@@ -2,6 +2,7 @@ apiVersion: v2
 name: my-app
 version: 1.0.0
 description: A Helm chart for deploying my-app
+icon: https://icons.iconarchive.com/icons/ph03nyx/super-mario/256/Yoshi-icon.png
 keywords:
   - my-app
   - helm
