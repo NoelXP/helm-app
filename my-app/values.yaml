@@ -5,9 +5,9 @@ image:
   tag: latest
   pullPolicy: Always
 
-  service:
-    type: NodePort
-    port: 80
+service:
+  type: NodePort
+  port: 80
 
 app_port: 3000
 environment: production
