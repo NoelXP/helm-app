@@ -6,7 +6,11 @@ image:
   pullPolicy: Always
 
 service:
+<<<<<<< HEAD
   type: LoadBalancer
+=======
+  type: NodePort
+>>>>>>> dda4e251d016b0a8bce1f47210ba2235f05762b8
   port: 80
 
 app_port: 3000
