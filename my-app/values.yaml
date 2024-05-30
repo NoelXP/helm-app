@@ -1,12 +1,12 @@
 replicaCount: 3
 
 image:
-  repository: us-east1-docker.pkg.dev/helm-tut/quickstart-docker-repo/helm-app
-  tag: latest
+  repository: registry-1.docker.io/noelxp/helm-app
+  tag: chess
   pullPolicy: Always
 
 service:
-  type: NodePort
+  type: LoadBalancer
   port: 80
 
 app_port: 3000

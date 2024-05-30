@@ -4,7 +4,10 @@ const app = express();
 var port = process.env.PORT ? Number.parseInt(process.env.PORT) : 3000;
 
 app.get("/", function(req, res) {
-    res.send("Hello World");
+        const letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
+        const randomLetter = letters[Math.floor(Math.random() * letters.length)];
+        const randomNumber = Math.floor(Math.random() * 8) + 1;
+        res.send(`Hello! Open your eyes and see! ${randomLetter}${randomNumber}`);
 });
 
 
